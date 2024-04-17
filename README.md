@@ -1,4 +1,4 @@
-# Copy-Pure-Zotero-Link
+# Copy PDF Link
 A translator .js file to copy PDF link in Zotero like Hookmark (for macOS).
 
 ## Motivation
