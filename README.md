@@ -8,4 +8,4 @@ Use the zotero link so that you don't need to worry about the file location, jus
 1. Put the .js file in the `translators` folder of Zotero software
 2. Restart Zotero
 3. In the preferences of Zotero, change the default format of `Export` to `Copy PDF Link`
-4. Use the `option + command + C` to copy PDF link and it will generate link like this: 'zotero://open-pdf/0_LBXHZKH7' 
+4. Use the `Cmd+Shift+C` to copy PDF link and it will generate link like this: 'zotero://open-pdf/0_LBXHZKH7' 
