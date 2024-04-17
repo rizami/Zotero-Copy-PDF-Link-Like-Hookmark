@@ -1,12 +1,12 @@
 {
-"translatorID":"eba57a21-7111-4247-b1b0-21d423bce961",
+"translatorID":"70bf0b84-5070-4f3b-85a7-d7219eebbc74",
 "translatorType":2,
 "label":"Copy PDF Link",
 "creator":"Rizami Annuar, original using idea from Andy Verne",
 "target":"html",
-"minVersion":"2.0",
+"minVersion":"1.0",
 "maxVersion":"",
-"priority":200,
+"priority":100,
 "inRepository":false,
 "displayOptions":{"exportCharset":"UTF-8"},
 "lastUpdated":"2012-07-17 22:27:00"
