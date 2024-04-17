@@ -1,5 +1,5 @@
 {
-"translatorID":"3b7ed65f-d488-4efc-9c03-d12e00c6d446",
+"translatorID":"eba57a21-7111-4247-b1b0-21d423bce961",
 "translatorType":2,
 "label":"Copy PDF Link",
 "creator":"Rizami Annuar, original using idea from Andy Verne",
@@ -15,8 +15,7 @@
 function doExport() {
 	var item;
 	while(item = Zotero.nextItem()) {
-		Zotero.write("zotero://open-pdf/items");
+		Zotero.write("zotero://open-pdf/");
 		var library_id = item.libraryID ? item.libraryID : 0;
 		Zotero.write(library_id+"_"+item.key);
-	}
-}
+	}}
