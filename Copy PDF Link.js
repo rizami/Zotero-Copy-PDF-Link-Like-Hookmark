@@ -1,16 +1,16 @@
 {
-    "translatorID": "dcb3fd0b-907f-49bd-97ef-64eb98c5096c",
-    "label": "Copy PDF Link",
-    "creator": "Rizami Annuar",
-    "target": "export",
-    "minVersion": "2.0",
-    "maxVersion": "",
-    "priority": 100,
-    "inRepository": false,
-    "translatorType": 2,
-    "browserSupport": "gcsibv",
-    "displayOptions": {"exportFileData": true},
-    "configOptions": {
+    "translatorID":"dcb3fd0b-907f-49bd-97ef-64eb98c5096c",
+    "label":"Copy PDF Link",
+    "creator":"Rizami Annuar",
+    "target":"export",
+    "minVersion":"2.0",
+    "maxVersion":"",
+    "priority":100,
+    "inRepository":false,
+    "translatorType":2,
+    "browserSupport":"gcsibv",
+    "displayOptions":{"exportFileData": true},
+    "configOptions":{
         "getCollections": true
     }
 }
