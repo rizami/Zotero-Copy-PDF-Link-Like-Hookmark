@@ -1,15 +1,18 @@
 {
-"translatorID":"70bf0b84-5070-4f3b-85a7-d7219eebbc74",
-"translatorType":2,
-"label":"Copy PDF Link",
-"creator":"Rizami Annuar, original using idea from Andy Verne, refined using ChatGPT-4",
-"target":"html",
-"minVersion":"1.0",
-"maxVersion":"",
-"priority":100,
-"inRepository":false,
-"displayOptions":{"exportCharset":"UTF-8"},
-"lastUpdated":"2024-04-18 09:01:00"
+    "translatorID": "dcb3fd0b-907f-49bd-97ef-64eb98c5096c",
+    "label": "Copy PDF Link",
+    "creator": "Rizami Annuar",
+    "target": "export",
+    "minVersion": "2.0",
+    "maxVersion": "",
+    "priority": 100,
+    "inRepository": false,
+    "translatorType": 2,
+    "browserSupport": "gcsibv",
+    "displayOptions": {"exportFileData": true},
+    "configOptions": {
+        "getCollections": true
+    }
 }
 
 function doExport() {
@@ -23,7 +26,6 @@ function doExport() {
         }
     }
 
-    // If no PDF was found in the selection
     if (!hasPDF) {
         Zotero.write("No PDF file selected. Please select a PDF file to export its link.");
     }
