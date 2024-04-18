@@ -9,8 +9,11 @@
     "inRepository":false,
     "translatorType":2,
     "browserSupport":"gcsibv",
-    "displayOptions":{"exportFileData": true},
-    "configOptions":{
+    "displayOptions": {
+        "exportFileData": true,
+        "exportCharset": "UTF-8"
+    },
+    "configOptions": {
         "getCollections": true
     }
 }
