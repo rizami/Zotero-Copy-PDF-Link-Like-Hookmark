@@ -1,35 +1,21 @@
 {
-    "translatorID":"dcb3fd0b-907f-49bd-97ef-64eb98c5096c",
-    "label":"Copy PDF Link",
-    "creator":"Rizami Annuar",
-    "target":"export",
-    "minVersion":"2.0",
-    "maxVersion":"",
-    "priority":100,
-    "inRepository":false,
-    "translatorType":2,
-    "browserSupport":"gcsibv",
-    "displayOptions": {
-        "exportFileData": true,
-        "exportCharset": "UTF-8"
-    },
-    "configOptions": {
-        "getCollections": true
-    }
+"translatorID":"647d4ae1-ebc9-4d93-b5ba-a26b69da062f",
+"translatorType":2,
+"label":"Copy PDF Link",
+"creator":"Rizami Annuar, original using idea from Andy Verne",
+"target":"html",
+"minVersion":"1.0",
+"maxVersion":"",
+"priority":100,
+"inRepository":false,
+"displayOptions":{"exportCharset":"UTF-8"},
+"lastUpdated":"2024-04-18 09:01:00"
 }
 
 function doExport() {
-    var item;
-    var hasPDF = false;
-
-    while (item = Zotero.nextItem()) {
-        if (item.itemType === 'attachment' && item.contentType === 'application/pdf') {
-            Zotero.write("zotero://open-pdf/0_" + item.key);
-            hasPDF = true;
-        }
-    }
-
-    if (!hasPDF) {
-        Zotero.write("No PDF file selected. Please select a PDF file to export its link.");
-    }
-}
+	var item;
+	while(item = Zotero.nextItem()) {
+		Zotero.write("zotero://open-pdf/");
+		var library_id = item.libraryID ? item.libraryID : 0;
+		Zotero.write(library_id+"_"+item.key);
+	}}
